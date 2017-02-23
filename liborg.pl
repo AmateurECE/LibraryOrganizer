@@ -1,20 +1,13 @@
 #!/usr/bin/perl
 #
-# vv.pl
+# liborg.pl
 #
-# Attempt number two at the system thing. Oh well!
+# This is my second attempt at trying to do this. *sigh*
 
-$file = "/Users/ethantwardy/Desktop/Perl/Music/Gojira/Magma/04 Stranded.mp3";
-$file =~ s/(?<=[^\\])[ '\(\)]/\\$&/g;
-$parent = $file;
-$parent =~ s/[^\/]*$//; # Get the parent directory
-$new_name = chop($parent);
-$new_name =~ s/[^\/]*$//; # Get the parent directory
-print "$parent\n"; 
-# ==================== UNCOMMENT WHEN READY ====================
-#use File::Find;
-#$path = "/Users/ethantwardy/Desktop/Perl/Music";
-#find(\&wanted, $path);
+# ============================ MAIN ============================
+use File::Find;
+$path = "/Users/ethantwardy/Desktop/Perl/Music";
+find(\&wanted, $path);
 # ==============================================================
 sub wanted {
     if (!-d && ($_ ne ".DS_Store") && m/(mp3|m4a)$/) {
