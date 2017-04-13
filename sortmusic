@@ -1,0 +1,11 @@
+#!/bin/sh
+
+SOURCE="/Users/ethantwardy/Downloads/NewMusic"
+DEST="/Users/ethantwardy/Downloads/MusictoBackup"
+OUTPUT="/Users/ethantwardy/Downloads/BackupManifests/"
+
+echo "Sorting Music in:\n$SOURCE\nPrinting Manifest to:\n$OUTPUT"
+perl sort.pl $SOURCE $OUTPUT
+
+echo "Moving Music in:\n$SOURCE\nto:\n$DEST"
+perl move.pl $SOURCE $DEST

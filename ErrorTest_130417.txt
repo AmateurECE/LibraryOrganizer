@@ -1,0 +1,27 @@
+Failure Results for sortmusic performace: 13/04/17
+
+Failed; distance = 2 at: 15. Nothing Visible; Ocean Empty (Bonus Track).mp3
+Failed; distance = 2 at: 01. GOOD MORNING AMERIKKKA.mp3
+Failed; distance = 2 at: 02. FOR MY PEOPLE.mp3
+Failed; distance = 2 at: 03. TEMPTATION.mp3
+Failed; distance = 2 at: 04. LAND OF THE FREE.mp3
+Failed; distance = 2 at: 05. DEVASTATED.mp3
+Failed; distance = 2 at: 06. Y U DON'T LOVE ME (MISS AMERIKKKA).mp3
+Failed; distance = 2 at: 07. ROCKABYE BABY (feat. ScHoolboy Q).mp3
+Failed; distance = 2 at: 08. RING THE ALARM (feat. Nyck Caution, Kirk Knight & Meechy Darko).mp3
+Failed; distance = 2 at: 09. SUPER PREDATOR (feat. Styles P).mp3
+Failed; distance = 2 at: 10. BABYLON (feat. Chronixx).mp3
+Failed; distance = 2 at: 11. LEGENDARY (feat. J. Cole).mp3
+Failed; distance = 2 at: 12. AMERIKKKAN IDOL.mp3
+Failed; distance = 2 at: 01 Feast in Famine.mp3
+Failed; distance = 2 at: 02 Our Hands.mp3
+Failed; distance = 2 at: 03 Rest Assured.mp3
+Failed; distance = 2 at: 04 Eyes Will Sink.mp3
+Failed; distance = 2 at: 05 Dissolve.mp3
+Failed; distance = 2 at: 06 Hypochondriac (Minding My).mp3
+Failed; distance = 2 at: 07 Branching In.mp3
+Failed; distance = 2 at: 08 Samaritan.mp3
+Failed; distance = 2 at: 09 Grief & Ties (feat. Garrett Garfield).mp3
+Failed; distance = 2 at: 10 Conscript.mp3
+
+Success rate: 97.8821362799263
