@@ -1,0 +1,6 @@
+#!/bin/sh
+
+TEST="/Users/ethantwardy/Downloads/MusictoBackup"
+OUTPUT="/Users/ethantwardy/Desktop"
+
+perl sortmovetest.pl $TEST $OUTPUT
