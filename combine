@@ -1,0 +1,14 @@
+#!/bin/sh
+################################################################################
+# NAME: combine
+# AUTHOR: Ethan D. Twardy
+# DESCRIPTION: Consolidates data from many BackupManif files created with
+#              sort.pl into one file.
+# CREATED: 06/04/17
+# LAST EDITED: 06/04/17
+################################################################################
+
+SOURCE="/Users/ethantwardy/Downloads/BackupManifests"
+CHECK="/Users/ethantwardy/Downloads/MusictoBackup"
+
+perl combManif.pl $SOURCE $CHECK
